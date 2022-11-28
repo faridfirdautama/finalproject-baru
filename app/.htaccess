@@ -1,0 +1,13 @@
+Options -Indexes
+
+
+
+
+
+
+
+#file htacces adalah file yang kita gunakan untuk memodifikasi konfigurasi dari server apache kita
+#itu bisa kita lakukan per folder
+
+#fungsi htacces line1
+#ketika user membuka folder app dan folder didalamnya selama di dalam folder itu tidak ada file indexes maka jangan tampilkan isi foldernya

@@ -1,0 +1,11 @@
+Options -Multiviews
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?url=$1 [L]
+
+
+# LINE 1 ->untuk menghindari keslahan/ambigu ketika kita memanggil folder/file di dalam public
+# LINE 3 ->menulis ulang url yang ada di browse kita
+#LINE 456 -> adalah konfigurasi rewrite
